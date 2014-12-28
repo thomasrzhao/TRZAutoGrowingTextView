@@ -13,8 +13,8 @@ public class TZAutoGrowingTextView: UITextView {
     private let contentSizeKeyPath = "contentSize";
     private var kvoContext = UInt8();
     
-    public override init() {
-        super.init();
+    public override init(frame: CGRect) {
+        super.init(frame: frame);
         commonInit();
     }
 
