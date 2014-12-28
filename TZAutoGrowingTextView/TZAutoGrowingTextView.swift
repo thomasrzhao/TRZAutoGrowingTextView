@@ -13,6 +13,14 @@ public class TZAutoGrowingTextView: UITextView {
     private let contentSizeKeyPath = "contentSize";
     private var kvoContext = UInt8();
     
+    public override init() {
+        super.init();
+    }
+    
+    public override init(frame: CGRect, textContainer: NSTextContainer?) {
+        super.init(frame: frame, textContainer: textContainer);
+    }
+    
     public override init(frame: CGRect) {
         super.init(frame: frame);
         commonInit();
@@ -36,7 +44,7 @@ public class TZAutoGrowingTextView: UITextView {
         case(contentSizeKeyPath, &kvoContext) :
             invalidateIntrinsicContentSize();
             layoutIfNeeded();
-            scrollRangeToVisible(selectedRange);
+            if(isFirstResponder()) { scrollRangeToVisible(selectedRange); }
         default: super.observeValueForKeyPath(keyPath, ofObject: object, change: change, context: context);
         }
     }
