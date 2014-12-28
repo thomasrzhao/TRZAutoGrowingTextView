@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA9DAB031A50B6230093478C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9DAB021A50B6230093478C /* AppDelegate.swift */; };
+		CA9DAB051A50B6230093478C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9DAB041A50B6230093478C /* ViewController.swift */; };
+		CA9DAB081A50B6230093478C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9DAB061A50B6230093478C /* Main.storyboard */; };
+		CA9DAB0A1A50B6230093478C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9DAB091A50B6230093478C /* Images.xcassets */; };
+		CA9DAB0D1A50B6230093478C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA9DAB0B1A50B6230093478C /* LaunchScreen.xib */; };
+		CA9DAB191A50B6230093478C /* TZAutoGrowingTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9DAB181A50B6230093478C /* TZAutoGrowingTextViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA9DAB131A50B6230093478C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA9DAAF51A50B6230093478C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9DAAFC1A50B6230093478C;
+			remoteInfo = TZAutoGrowingTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA9DAAFD1A50B6230093478C /* TZAutoGrowingTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZAutoGrowingTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9DAB011A50B6230093478C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9DAB021A50B6230093478C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA9DAB041A50B6230093478C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA9DAB071A50B6230093478C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA9DAB091A50B6230093478C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA9DAB0C1A50B6230093478C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CA9DAB121A50B6230093478C /* TZAutoGrowingTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZAutoGrowingTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9DAB171A50B6230093478C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9DAB181A50B6230093478C /* TZAutoGrowingTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZAutoGrowingTextViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA9DAAFA1A50B6230093478C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9DAB0F1A50B6230093478C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA9DAAF41A50B6230093478C = {
+			isa = PBXGroup;
+			children = (
+				CA9DAAFF1A50B6230093478C /* TZAutoGrowingTextView */,
+				CA9DAB151A50B6230093478C /* TZAutoGrowingTextViewTests */,
+				CA9DAAFE1A50B6230093478C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA9DAAFE1A50B6230093478C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA9DAAFD1A50B6230093478C /* TZAutoGrowingTextView.app */,
+				CA9DAB121A50B6230093478C /* TZAutoGrowingTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA9DAAFF1A50B6230093478C /* TZAutoGrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				CA9DAB021A50B6230093478C /* AppDelegate.swift */,
+				CA9DAB041A50B6230093478C /* ViewController.swift */,
+				CA9DAB061A50B6230093478C /* Main.storyboard */,
+				CA9DAB091A50B6230093478C /* Images.xcassets */,
+				CA9DAB0B1A50B6230093478C /* LaunchScreen.xib */,
+				CA9DAB001A50B6230093478C /* Supporting Files */,
+			);
+			path = TZAutoGrowingTextView;
+			sourceTree = "<group>";
+		};
+		CA9DAB001A50B6230093478C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA9DAB011A50B6230093478C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA9DAB151A50B6230093478C /* TZAutoGrowingTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA9DAB181A50B6230093478C /* TZAutoGrowingTextViewTests.swift */,
+				CA9DAB161A50B6230093478C /* Supporting Files */,
+			);
+			path = TZAutoGrowingTextViewTests;
+			sourceTree = "<group>";
+		};
+		CA9DAB161A50B6230093478C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA9DAB171A50B6230093478C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA9DAAFC1A50B6230093478C /* TZAutoGrowingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9DAB1C1A50B6230093478C /* Build configuration list for PBXNativeTarget "TZAutoGrowingTextView" */;
+			buildPhases = (
+				CA9DAAF91A50B6230093478C /* Sources */,
+				CA9DAAFA1A50B6230093478C /* Frameworks */,
+				CA9DAAFB1A50B6230093478C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TZAutoGrowingTextView;
+			productName = TZAutoGrowingTextView;
+			productReference = CA9DAAFD1A50B6230093478C /* TZAutoGrowingTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA9DAB111A50B6230093478C /* TZAutoGrowingTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9DAB1F1A50B6230093478C /* Build configuration list for PBXNativeTarget "TZAutoGrowingTextViewTests" */;
+			buildPhases = (
+				CA9DAB0E1A50B6230093478C /* Sources */,
+				CA9DAB0F1A50B6230093478C /* Frameworks */,
+				CA9DAB101A50B6230093478C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA9DAB141A50B6230093478C /* PBXTargetDependency */,
+			);
+			name = TZAutoGrowingTextViewTests;
+			productName = TZAutoGrowingTextViewTests;
+			productReference = CA9DAB121A50B6230093478C /* TZAutoGrowingTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA9DAAF51A50B6230093478C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = thomasrzhao;
+				TargetAttributes = {
+					CA9DAAFC1A50B6230093478C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CA9DAB111A50B6230093478C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CA9DAAFC1A50B6230093478C;
+					};
+				};
+			};
+			buildConfigurationList = CA9DAAF81A50B6230093478C /* Build configuration list for PBXProject "TZAutoGrowingTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA9DAAF41A50B6230093478C;
+			productRefGroup = CA9DAAFE1A50B6230093478C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA9DAAFC1A50B6230093478C /* TZAutoGrowingTextView */,
+				CA9DAB111A50B6230093478C /* TZAutoGrowingTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA9DAAFB1A50B6230093478C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9DAB081A50B6230093478C /* Main.storyboard in Resources */,
+				CA9DAB0D1A50B6230093478C /* LaunchScreen.xib in Resources */,
+				CA9DAB0A1A50B6230093478C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9DAB101A50B6230093478C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA9DAAF91A50B6230093478C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9DAB051A50B6230093478C /* ViewController.swift in Sources */,
+				CA9DAB031A50B6230093478C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9DAB0E1A50B6230093478C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9DAB191A50B6230093478C /* TZAutoGrowingTextViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA9DAB141A50B6230093478C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9DAAFC1A50B6230093478C /* TZAutoGrowingTextView */;
+			targetProxy = CA9DAB131A50B6230093478C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA9DAB061A50B6230093478C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA9DAB071A50B6230093478C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA9DAB0B1A50B6230093478C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA9DAB0C1A50B6230093478C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA9DAB1A1A50B6230093478C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA9DAB1B1A50B6230093478C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA9DAB1D1A50B6230093478C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TZAutoGrowingTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA9DAB1E1A50B6230093478C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TZAutoGrowingTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA9DAB201A50B6230093478C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TZAutoGrowingTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZAutoGrowingTextView.app/TZAutoGrowingTextView";
+			};
+			name = Debug;
+		};
+		CA9DAB211A50B6230093478C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TZAutoGrowingTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZAutoGrowingTextView.app/TZAutoGrowingTextView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA9DAAF81A50B6230093478C /* Build configuration list for PBXProject "TZAutoGrowingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9DAB1A1A50B6230093478C /* Debug */,
+				CA9DAB1B1A50B6230093478C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9DAB1C1A50B6230093478C /* Build configuration list for PBXNativeTarget "TZAutoGrowingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9DAB1D1A50B6230093478C /* Debug */,
+				CA9DAB1E1A50B6230093478C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA9DAB1F1A50B6230093478C /* Build configuration list for PBXNativeTarget "TZAutoGrowingTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9DAB201A50B6230093478C /* Debug */,
+				CA9DAB211A50B6230093478C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA9DAAF51A50B6230093478C /* Project object */;
+}
