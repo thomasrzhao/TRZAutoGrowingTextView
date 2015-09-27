@@ -1,7 +1,7 @@
-TZAutoGrowingTextView
+TRZAutoGrowingTextView
 =====================
 
-A UITextView subclass that grows to fit its contents. Useful for creating a vertically centered text view.
+A UITextView subclass that grows (i.e. sets its intrinsicContentSize) to fit its contents. Useful for creating a vertically centered text view when used with Auto Layout.
 
 Usage
 ---------------------
@@ -13,8 +13,4 @@ To limit the growth of the text view so that it stays on-screen even if there is
 
 Interface Builder
 ---------------------
-This class works with Interface Builder. However, because Interface Builder does not respect custom UIView subclasses' intrinsic content size, you will have to specify a placeholder size to avoid warnings.
-
-You can do this by changing the Intrinsic Content size setting in the Size Inspector from "Default (System Defined)" to "Placeholder".
-
-* I've tried making the class IBDesignable, but Interface Builder just crashes.
+This class works with Interface Builder, and is now IBDesignable. Just drag in a UITextView and set the Custom Class to TRZAutoGrowingTextView.

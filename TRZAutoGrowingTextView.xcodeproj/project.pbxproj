@@ -12,8 +12,8 @@
 		CA9DAB081A50B6230093478C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9DAB061A50B6230093478C /* Main.storyboard */; };
 		CA9DAB0A1A50B6230093478C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9DAB091A50B6230093478C /* Images.xcassets */; };
 		CA9DAB0D1A50B6230093478C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA9DAB0B1A50B6230093478C /* LaunchScreen.xib */; };
-		CA9DAB191A50B6230093478C /* TZAutoGrowingTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9DAB181A50B6230093478C /* TZAutoGrowingTextViewTests.swift */; };
-		CA9DAB231A50B63C0093478C /* TZAutoGrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9DAB221A50B63C0093478C /* TZAutoGrowingTextView.swift */; };
+		CA9DAB191A50B6230093478C /* TRZAutoGrowingTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9DAB181A50B6230093478C /* TRZAutoGrowingTextViewTests.swift */; };
+		CA9DAB231A50B63C0093478C /* TRZAutoGrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9DAB221A50B63C0093478C /* TRZAutoGrowingTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CA9DAAFD1A50B6230093478C /* TZAutoGrowingTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZAutoGrowingTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9DAAFD1A50B6230093478C /* TRZAutoGrowingTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZAutoGrowingTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9DAB011A50B6230093478C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA9DAB021A50B6230093478C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA9DAB041A50B6230093478C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA9DAB071A50B6230093478C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA9DAB091A50B6230093478C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CA9DAB0C1A50B6230093478C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CA9DAB121A50B6230093478C /* TZAutoGrowingTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZAutoGrowingTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9DAB121A50B6230093478C /* TRZAutoGrowingTextView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZAutoGrowingTextView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9DAB171A50B6230093478C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA9DAB181A50B6230093478C /* TZAutoGrowingTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZAutoGrowingTextViewTests.swift; sourceTree = "<group>"; };
-		CA9DAB221A50B63C0093478C /* TZAutoGrowingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZAutoGrowingTextView.swift; sourceTree = "<group>"; };
+		CA9DAB181A50B6230093478C /* TRZAutoGrowingTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRZAutoGrowingTextViewTests.swift; sourceTree = "<group>"; };
+		CA9DAB221A50B63C0093478C /* TRZAutoGrowingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRZAutoGrowingTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 		CA9DAAF41A50B6230093478C = {
 			isa = PBXGroup;
 			children = (
-				CA9DAAFF1A50B6230093478C /* TZAutoGrowingTextView */,
-				CA9DAB151A50B6230093478C /* TZAutoGrowingTextViewTests */,
+				CA9DAAFF1A50B6230093478C /* TRZAutoGrowingTextView */,
+				CA9DAB151A50B6230093478C /* TRZAutoGrowingTextViewTests */,
 				CA9DAAFE1A50B6230093478C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,23 +70,24 @@
 		CA9DAAFE1A50B6230093478C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA9DAAFD1A50B6230093478C /* TZAutoGrowingTextView.app */,
-				CA9DAB121A50B6230093478C /* TZAutoGrowingTextViewTests.xctest */,
+				CA9DAAFD1A50B6230093478C /* TRZAutoGrowingTextView.app */,
+				CA9DAB121A50B6230093478C /* TRZAutoGrowingTextView.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA9DAAFF1A50B6230093478C /* TZAutoGrowingTextView */ = {
+		CA9DAAFF1A50B6230093478C /* TRZAutoGrowingTextView */ = {
 			isa = PBXGroup;
 			children = (
 				CA9DAB021A50B6230093478C /* AppDelegate.swift */,
 				CA9DAB041A50B6230093478C /* ViewController.swift */,
-				CA9DAB221A50B63C0093478C /* TZAutoGrowingTextView.swift */,
+				CA9DAB221A50B63C0093478C /* TRZAutoGrowingTextView.swift */,
 				CA9DAB061A50B6230093478C /* Main.storyboard */,
 				CA9DAB091A50B6230093478C /* Images.xcassets */,
 				CA9DAB0B1A50B6230093478C /* LaunchScreen.xib */,
 				CA9DAB001A50B6230093478C /* Supporting Files */,
 			);
+			name = TRZAutoGrowingTextView;
 			path = TZAutoGrowingTextView;
 			sourceTree = "<group>";
 		};
@@ -98,12 +99,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CA9DAB151A50B6230093478C /* TZAutoGrowingTextViewTests */ = {
+		CA9DAB151A50B6230093478C /* TRZAutoGrowingTextViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				CA9DAB181A50B6230093478C /* TZAutoGrowingTextViewTests.swift */,
+				CA9DAB181A50B6230093478C /* TRZAutoGrowingTextViewTests.swift */,
 				CA9DAB161A50B6230093478C /* Supporting Files */,
 			);
+			name = TRZAutoGrowingTextViewTests;
 			path = TZAutoGrowingTextViewTests;
 			sourceTree = "<group>";
 		};
@@ -118,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA9DAAFC1A50B6230093478C /* TZAutoGrowingTextView */ = {
+		CA9DAAFC1A50B6230093478C /* TRZAutoGrowingTextView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA9DAB1C1A50B6230093478C /* Build configuration list for PBXNativeTarget "TZAutoGrowingTextView" */;
+			buildConfigurationList = CA9DAB1C1A50B6230093478C /* Build configuration list for PBXNativeTarget "TRZAutoGrowingTextView" */;
 			buildPhases = (
 				CA9DAAF91A50B6230093478C /* Sources */,
 				CA9DAAFA1A50B6230093478C /* Frameworks */,
@@ -130,14 +132,14 @@
 			);
 			dependencies = (
 			);
-			name = TZAutoGrowingTextView;
+			name = TRZAutoGrowingTextView;
 			productName = TZAutoGrowingTextView;
-			productReference = CA9DAAFD1A50B6230093478C /* TZAutoGrowingTextView.app */;
+			productReference = CA9DAAFD1A50B6230093478C /* TRZAutoGrowingTextView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CA9DAB111A50B6230093478C /* TZAutoGrowingTextViewTests */ = {
+		CA9DAB111A50B6230093478C /* TRZAutoGrowingTextViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA9DAB1F1A50B6230093478C /* Build configuration list for PBXNativeTarget "TZAutoGrowingTextViewTests" */;
+			buildConfigurationList = CA9DAB1F1A50B6230093478C /* Build configuration list for PBXNativeTarget "TRZAutoGrowingTextViewTests" */;
 			buildPhases = (
 				CA9DAB0E1A50B6230093478C /* Sources */,
 				CA9DAB0F1A50B6230093478C /* Frameworks */,
@@ -148,9 +150,9 @@
 			dependencies = (
 				CA9DAB141A50B6230093478C /* PBXTargetDependency */,
 			);
-			name = TZAutoGrowingTextViewTests;
+			name = TRZAutoGrowingTextViewTests;
 			productName = TZAutoGrowingTextViewTests;
-			productReference = CA9DAB121A50B6230093478C /* TZAutoGrowingTextViewTests.xctest */;
+			productReference = CA9DAB121A50B6230093478C /* TRZAutoGrowingTextView.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +161,9 @@
 		CA9DAAF51A50B6230093478C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = thomasrzhao;
 				TargetAttributes = {
 					CA9DAAFC1A50B6230093478C = {
@@ -171,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CA9DAAF81A50B6230093478C /* Build configuration list for PBXProject "TZAutoGrowingTextView" */;
+			buildConfigurationList = CA9DAAF81A50B6230093478C /* Build configuration list for PBXProject "TRZAutoGrowingTextView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,8 +188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA9DAAFC1A50B6230093478C /* TZAutoGrowingTextView */,
-				CA9DAB111A50B6230093478C /* TZAutoGrowingTextViewTests */,
+				CA9DAAFC1A50B6230093478C /* TRZAutoGrowingTextView */,
+				CA9DAB111A50B6230093478C /* TRZAutoGrowingTextViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -217,7 +221,7 @@
 			files = (
 				CA9DAB051A50B6230093478C /* ViewController.swift in Sources */,
 				CA9DAB031A50B6230093478C /* AppDelegate.swift in Sources */,
-				CA9DAB231A50B63C0093478C /* TZAutoGrowingTextView.swift in Sources */,
+				CA9DAB231A50B63C0093478C /* TRZAutoGrowingTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA9DAB191A50B6230093478C /* TZAutoGrowingTextViewTests.swift in Sources */,
+				CA9DAB191A50B6230093478C /* TRZAutoGrowingTextViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +238,7 @@
 /* Begin PBXTargetDependency section */
 		CA9DAB141A50B6230093478C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CA9DAAFC1A50B6230093478C /* TZAutoGrowingTextView */;
+			target = CA9DAAFC1A50B6230093478C /* TRZAutoGrowingTextView */;
 			targetProxy = CA9DAB131A50B6230093478C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -279,6 +283,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -344,7 +349,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TZAutoGrowingTextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thomasrzhao.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TRZAutoGrowingTextView;
 			};
 			name = Debug;
 		};
@@ -354,7 +360,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TZAutoGrowingTextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thomasrzhao.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TRZAutoGrowingTextView;
 			};
 			name = Release;
 		};
@@ -372,8 +379,9 @@
 				);
 				INFOPLIST_FILE = TZAutoGrowingTextViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZAutoGrowingTextView.app/TZAutoGrowingTextView";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thomasrzhao.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TRZAutoGrowingTextView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRZAutoGrowingTextView.app/TRZAutoGrowingTextView";
 			};
 			name = Debug;
 		};
@@ -387,15 +395,16 @@
 				);
 				INFOPLIST_FILE = TZAutoGrowingTextViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZAutoGrowingTextView.app/TZAutoGrowingTextView";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thomasrzhao.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TRZAutoGrowingTextView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRZAutoGrowingTextView.app/TRZAutoGrowingTextView";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA9DAAF81A50B6230093478C /* Build configuration list for PBXProject "TZAutoGrowingTextView" */ = {
+		CA9DAAF81A50B6230093478C /* Build configuration list for PBXProject "TRZAutoGrowingTextView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA9DAB1A1A50B6230093478C /* Debug */,
@@ -404,21 +413,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA9DAB1C1A50B6230093478C /* Build configuration list for PBXNativeTarget "TZAutoGrowingTextView" */ = {
+		CA9DAB1C1A50B6230093478C /* Build configuration list for PBXNativeTarget "TRZAutoGrowingTextView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA9DAB1D1A50B6230093478C /* Debug */,
 				CA9DAB1E1A50B6230093478C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		CA9DAB1F1A50B6230093478C /* Build configuration list for PBXNativeTarget "TZAutoGrowingTextViewTests" */ = {
+		CA9DAB1F1A50B6230093478C /* Build configuration list for PBXNativeTarget "TRZAutoGrowingTextViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA9DAB201A50B6230093478C /* Debug */,
 				CA9DAB211A50B6230093478C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
